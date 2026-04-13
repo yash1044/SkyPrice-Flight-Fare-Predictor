@@ -18,5 +18,5 @@ SkyPrice is a Machine Learning project designed to predict flight ticket prices.
 
 ## 📂 Project Structure
 - `Flight_Fare_Prediction.ipynb` - Python code and analysis.
-- `Flight_Data.csv` - Dataset.
+- `Flight_Data.xlsx` - Dataset.
 - `README.md` - Documentation.
