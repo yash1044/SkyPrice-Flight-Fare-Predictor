@@ -1,3 +1,5 @@
+# ✈️ SkyPrice: Flight Fare Prediction
+
 ## 📌 Project Overview
 SkyPrice is a Machine Learning project designed to predict flight ticket prices. By analyzing historical flight data, the model helps users understand price trends and factors affecting airfares.
 
@@ -6,17 +8,19 @@ SkyPrice is a Machine Learning project designed to predict flight ticket prices.
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 - **Algorithm:** Random Forest Regressor
 
-## 📊 Key Features
-- **Data Cleaning:** Handled missing values and outliers.
-- **Feature Engineering:** Extracted useful details from Date and Time columns.
-- **Accuracy:** Optimized the model for high predictive performance.
-
-## 🚀 How to Run
-- Download the repository as a ZIP file.
-- Open the `Flight_Fare_Prediction.ipynb` file in Jupyter Notebook or Google Colab.
-- Ensure you have libraries like `pandas`, `scikit-learn`, and `seaborn` installed.
+## 📊 Key Features & Results
+- **Data Cleaning:** Handled missing values and outliers effectively.
+- **Feature Engineering:** Extracted useful details from Date, Departure, and Arrival columns to improve model performance.
+- **Model Performance:** - **Training Accuracy:** ~95%
+  - **Testing Accuracy:** ~80%
 
 ## 📂 Project Structure
-- `Flight_Fare_Prediction.ipynb` - Python code and analysis.
-- `Flight_Data.xlsx` - Dataset.
-- `README.md` - Documentation.
+- 📄 `Flight_Fare_Prediction.ipynb` : Main Jupyter Notebook with complete analysis and model.
+- 📊 `Flight_Data.xlsx` : Raw dataset used for the project.
+- 📝 `README.md` : Project documentation.
+
+## 🚀 How to Run
+1. Download the repository and ensure you have Python installed.
+2. Install the required libraries:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
